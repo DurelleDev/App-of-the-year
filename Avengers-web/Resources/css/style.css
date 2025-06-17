@@ -15,17 +15,23 @@ ul{
 ol{
     list-style-type: upper-roman;
 }
-
-#menu-bar a{
-    font-family: helvetica, sans-serif;
-    text-decoration:  none;
-    background-color: aquamarine;
-    padding: 5px;
+#menu-bar{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
 }
-
-#menu-bar a:hover{
-    background-color:  aqua;
+#menu-bar a{
     color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#menu-bar a:hover{
+    color: #5077bd;
 }
 
 #gallery img{
