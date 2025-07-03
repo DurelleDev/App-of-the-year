@@ -40,6 +40,8 @@ body{
     text-align  : center;
     text-decoration : none;
     padding-top     : 12px;
+    background-image: url("img/backgroundwhite.jpg");
+    background-size: cover;
 }
 #main-home{
     margin-top: 120px;
@@ -70,5 +72,63 @@ body{
     margin-top: 120px;
     text-align: center;
     position: fixed;
+}
 
+#main{
+    margin-top: 119px;
+    background: url("img/map-blur.png");
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+a.info-box{
+    text-decoration : none;
+    background      : rgba(255 ,225, 55, .8);
+    width           : 90%;
+    height          : 90px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 12px;
+    padding         : 1px;
+}
+
+.info-box img{
+    height : 70px;
+    margin : 10px;
+    float  : left;
+}
+.info-box h3{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color : #572800;
+}
+.info-box p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color   : #131313;
+}
+.info-box img.right{
+    float      : right;
+    margin-top : 25px;
+    height :    40px;
+}
+#info-box-full{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 90%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+#info-box-full img{
+    width : 100%;
+}
+#info-box-full h3{
+    text-align : center;
 }
